@@ -40,7 +40,7 @@
   "dependencies": {
     "onecolor": "~2.4.0",
     "cucumber": "0.3.0",
-    "webdriverio": "^2.1.0",
+    "webdriverio": "^4.0.8",
     "phantomjs": "~1.9.11",
     "selenium-standalone": "~2.43.1-5",
     "win-spawn": "2.0.0",
