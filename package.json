@@ -25,7 +25,9 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "licenses": [
     {
@@ -39,13 +41,14 @@
   },
   "dependencies": {
     "onecolor": "~2.4.0",
-    "cucumber": "0.3.0",
-    "webdriverio": "^2.1.0",
+    "cucumber": "0.4.4",
+    "webdriverio": "3.0.0",
     "phantomjs": "~1.9.11",
     "selenium-standalone": "~2.43.1-5",
     "win-spawn": "2.0.0",
     "colorlog": "~0.1.1",
-    "gm": "1.13.3"
+    "gm": "1.21.0",
+    "snyk": "1.15.1"
   },
   "devDependencies": {
     "jasmine-node": "1.10.2",
@@ -55,5 +58,6 @@
     "grunt-shell": "~0.3.1",
     "grunt-cli": "~0.1.9",
     "grunt-contrib-jshint": "~0.6.3"
-  }
+  },
+  "snyk": true
 }
