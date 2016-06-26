@@ -6,3 +6,13 @@ patch:
         patched: '2016-06-23T12:56:53.857Z'
     - phantomjs > request:
         patched: '2016-06-23T12:56:53.857Z'
+  'npm:minimatch:20160620':
+    - webdriverio > archiver > glob > minimatch:
+        patched: '2016-06-26T22:40:23.233Z'
+  'npm:uglify-js:20151024':
+    - cucumber > pogo > uglify-js:
+        patched: '2016-06-26T22:40:23.233Z'
+    - cucumber > browserify > umd > ruglify > uglify-js:
+        patched: '2016-06-26T22:40:23.233Z'
+    - cucumber > browserify > browser-pack > umd > ruglify > uglify-js:
+        patched: '2016-06-26T22:40:23.233Z'
