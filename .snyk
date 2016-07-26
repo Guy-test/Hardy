@@ -16,3 +16,6 @@ patch:
         patched: '2016-06-26T22:40:23.233Z'
     - cucumber > browserify > browser-pack > umd > ruglify > uglify-js:
         patched: '2016-06-26T22:40:23.233Z'
+  'npm:tough-cookie:20160722':
+    - phantomjs > request > tough-cookie:
+        patched: '2016-07-26T01:59:51.845Z'
