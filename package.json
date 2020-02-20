@@ -48,7 +48,7 @@
     "win-spawn": "2.0.0",
     "colorlog": "~0.1.1",
     "gm": "1.21.0",
-    "snyk": "1.16.0"
+    "snyk": "1.78.0"
   },
   "devDependencies": {
     "jasmine-node": "1.10.2",
