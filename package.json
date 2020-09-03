@@ -42,13 +42,13 @@
   "dependencies": {
     "onecolor": "~2.4.0",
     "cucumber": "0.6.0",
-    "webdriverio": "3.0.0",
+    "webdriverio": "4.2.3",
     "phantomjs": "~1.9.11",
     "selenium-standalone": "~2.43.1-5",
     "win-spawn": "2.0.0",
     "colorlog": "~0.1.1",
     "gm": "1.21.0",
-    "snyk": "1.16.0"
+    "snyk": "1.19.1"
   },
   "devDependencies": {
     "jasmine-node": "1.10.2",
